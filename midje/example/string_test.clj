@@ -5,5 +5,5 @@
   "string is equal" => "string is equal")
 
 (fact "strings not equal"
-  "space" => "spice")
+   "spice" => "space")
 
