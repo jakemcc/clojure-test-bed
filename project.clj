@@ -11,10 +11,10 @@
                      :plugins [[lein-midje "3.1.3"]]
                      :test-paths ^:replace ["midje"]}
 
-             :expectations {:dependencies [[expectations "2.0.6"]]
+             :expectations {:dependencies [[expectations "2.0.7"]]
                             :plugins [[lein-autoexpect "1.2.2"]]
                             :test-paths ^:replace ["expectations"]}
 
-             :speclj {:dependencies [[speclj "3.0.0"]]
-                      :plugins [[speclj "3.0.0"]]
+             :speclj {:dependencies [[speclj "3.0.2"]]
+                      :plugins [[speclj "3.0.2"]]
                       :test-paths ^:replace ["spec"]}})
