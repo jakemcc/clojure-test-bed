@@ -1,4 +1,4 @@
-(defproject example "0.1.0-SNAPSHOT"
+(defproject clojure-test-bed "0.1.0-SNAPSHOT"
   :description "Test bed for trying different testing libraries."
   :dependencies [[org.clojure/clojure "1.6.0"]]
   :profiles {:dev {:plugins [[com.jakemccrary/lein-test-refresh "0.5.0"]]}
